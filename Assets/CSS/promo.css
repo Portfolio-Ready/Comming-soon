@@ -1,0 +1,152 @@
+.come{
+	
+	background: url('https://i.ibb.co/pbNgdqj/bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+
+
+
+/* Logo */  
+.header_area img{
+
+    width: 200px;
+    margin-top: 150px;
+}
+
+/* Body Content */  
+.tagline h1{
+    font-family: 'Roboto Serif', serif;
+    font-weight: 700;
+    border-top: 1px solid #00dcff;
+    border-bottom: 1px solid #00dcff;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36px;
+}
+.content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Countdown Timer */  
+.countdown-timer{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding-top: 17%;
+    width: 1070px;
+}
+.timer{
+    width: 330px;
+    margin: 0 auto;
+    height: 110px;
+}
+.countdown-container{
+    display:flex;
+}
+.big-text{
+    font-size:4rem;
+    font-family: cursive;
+}
+ 
+.wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.countdown-container > div{
+    margin:0 2rem;
+    text-align: center;
+    border:2px solid #00dcff;
+    padding:0px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    color:#fff;
+    min-width:150px;
+}
+.countdown-container span{
+    background: #00215282;
+    padding: 14px;
+    border: 1px solid #00dcff;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+  @media (max-width:992px){
+    .countdown-container > div{
+      margin:0 1rem;
+    }
+  }
+  @media (max-width:767px){
+    .countdown-container{
+      flex-wrap: wrap;
+    }
+    .countdown-container > div{
+      margin:1rem auto;
+      max-width:150px;
+    }
+    .title{
+      font-size: 1.5rem;
+      line-height: 3.5rem;
+      margin:10px 0px;
+    }
+    .title span{
+      font-size: 2rem;
+      letter-spacing: 1rem;
+    }
+  }
+  
+/* Buttons */  
+
+.button-wrapper{
+    display: flex;
+    margin-right: 10px;
+}
+.button-wrapper button{
+    background: transparent;
+    color: white;
+    padding: 10px 20px 14px 20px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 600;
+
+}
+
+
+/* Sidebar Offcanvas */
+#sidebarOffcanvas{
+  background: #0032bf47;
+}
+.offcanvas-body h3{
+  font-size: 25px;
+  font-family: 'Roboto Serif', serif;
+  color: #fff;
+  font-weight: 700;
+}
+.offcanvas-body p{
+  text-align: justify;
+  color: #fff;
+}
+.progress-bar{
+  background: linear-gradient(45deg, #00dcff, transparent);
+  color: #000;
+  font-weight: 600;
+}
+.wrapper-ceo img{
+  width: 30%;
+  border: 4px solid #00dcff;
+}
+
+

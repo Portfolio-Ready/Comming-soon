@@ -1,0 +1,307 @@
+
+
+
+.nav-link{
+  color: #000000;
+}
+
+/* Button styles */
+.sign-up, .explore{
+    background: linear-gradient(45deg, #04016C 0%, #4A16BD 100%);
+}
+
+
+
+
+
+    /* Logo container styling */
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem; /* Rounded corner */
+      background: linear-gradient(45deg, #04016C, #4A16BD); /* Matches gradient theme */
+      color: #2AAA94; /* Logo text color */
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    /* Icon styling */
+    .logo-container .logo-icon {
+      margin-right: 0.5rem;
+      font-size: 1.5rem; /* Icon size */
+      color: #ffffff; /* Matches logo color scheme */
+    }
+
+    /* Text styling */
+    .logo-container .logo-text-portfolio {
+      color: #fff; /* White color for 'Portfolio' text */
+    }
+
+    .logo-container .logo-text-ready {
+      color: #2AAA94; /* Accent color for 'Ready' text */
+      background-color: #fff; /* Light background to stand out */
+      padding: 0.1rem 0.5rem;
+      border-radius: 0.25rem;
+      margin-left: 0.25rem;
+    }
+
+
+
+
+    /* HeroSection */
+
+
+.hero-sec{
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+}
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+
+
+    
+/* Cards */
+
+
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.enroll {
+    text-decoration: none;
+}
+
+
+.card-foot i{
+    font-size: 1.2rem;
+}
+
+
+
+@media (min-width: 992px) {
+    .row.gap-4 {
+        gap: 2rem;
+    }
+}
+
+
+/* Ribbone styles */
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon {
+  --f: .5em; /* control the folded part */
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.8;
+  padding-inline: 1lh;
+  padding-bottom: var(--f);
+  border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+  clip-path: polygon(
+    100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
+  transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
+  transform-origin: 0% 100%;
+  background-color: #BD1550; /* the main color  */
+}
+
+
+
+
+/* Price Ribbon */
+ /* HTML: <div class="ribbon">Your text content</div> */
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+
+  .price {
+    --f: .5em; /* control the folded part*/
+    --r: .8em; /* control the ribbon shape */
+    
+    position: absolute;
+    top: 20px;
+    left: calc(-1*var(--f));
+    padding-inline: .25em;
+    line-height: 1.8;
+    background: #E3AD40;
+    border-top: var(--f) solid #0005;
+    border-right: var(--r) solid #0000;
+    clip-path: 
+      polygon(calc(100% - var(--r)) 100%,0 100%,0 var(--f),var(--f) 0,
+        var(--f) var(--f),calc(100% - var(--r)) var(--f),
+        100% calc(50% + var(--f)/2));
+  }
+
+
+
+
+
+  /* Carousel start */
+
+  .carousel {
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+  .carousel .item {
+    color: #999;
+    overflow: hidden;
+      min-height: 120px;
+    font-size: 13px;
+  }
+  .carousel .media {
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  .carousel .media img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 50%;
+  }
+  .carousel .testimonial-wrapper {
+    padding: 0 10px;
+  }
+  .carousel .testimonial {
+      color: #808080;
+      position: relative;
+      padding: 15px;
+      background: #f1f1f1;
+      border: 1px solid #efefef;
+      border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  .carousel .testimonial::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-width: 0 0 1px 1px;
+    position: absolute;
+    bottom: -8px;
+    left: 46px;
+    transform: rotateZ(-46deg);
+  }
+  .carousel .star-rating li {
+    padding: 0 2px;
+  }
+  .carousel .star-rating i {
+    font-size: 16px;
+    color: #ffdc12;
+  }
+  .carousel .overview {
+    padding: 3px 0 0 15px;
+  }
+  .carousel .overview .details {
+    padding: 5px 0 8px;
+  }
+  .carousel .overview b {
+    text-transform: uppercase;
+    color: #1abc9c;
+  }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 18px;
+      height: 18px;
+    border-radius: 50%;
+    margin: 1px 2px;
+  }
+  .carousel-indicators li {	
+      background: #e2e2e2;
+      border: 4px solid #fff;
+  }
+  .carousel-indicators li.active {
+    color: #fff;
+      background: #1abc9c;
+      border: 5px double;    
+  }
+
+
+  /* Whatsapp Button */
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+
+
